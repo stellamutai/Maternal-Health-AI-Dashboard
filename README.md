@@ -25,16 +25,9 @@ To launch the dashboard on your machine:
    ```
 3. The dashboard will automatically open in your default browser at `http://localhost:8501`.
 
-## Deployment (Streamlit Cloud)
-This dashboard is ready for **Streamlit Cloud** (the easiest way to share it).
-
-1. Push your code to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io/).
-3. Connect your GitHub account and select this repository.
-4. Set the "Main file path" to `dashboard.py`.
-5. Click **Deploy**.
 
 ## File Structure
 - `dashboard.py`: The main application code.
 - `engineered_maternal_mortality.csv`: Historical data source.
 - `best_model.pkl`: The trained machine learning model.
+
